@@ -1,0 +1,98 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto e98af4cfe1ac49a0a52103313fd71fff --debug typical --relax --mt 2 -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_2 -L fifo_generator_v13_1_3 -L lib_fifo_v1_0_7 -L fifo_generator_v13_0_5 -L axi_fifo_mm_s_v4_1_8 -L xil_defaultlib -L dist_mem_gen_v8_0_11 -L blk_mem_gen_v8_3_5 -L lib_bmg_v1_0_7 -L lib_cdc_v1_0_2 -L axi_traffic_gen_v2_0_12 -L proc_sys_reset_v5_0_10 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package lib_pkg_v1_0_2.lib_pkg
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package axi_fifo_mm_s_v4_1_8.axi_fifo_mm_s_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=6,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_min_size=...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5_bhv_ss [\fifo_generator_v13_0_5_bhv_ss(c...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5_bhv_preload0 [\fifo_generator_v13_0_5_bhv_prel...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5_conv [\fifo_generator_v13_0_5_conv(c_c...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(c_commo...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5 [\fifo_generator_v13_0_5(c_common...]
+Compiling architecture structure of entity axi_fifo_mm_s_v4_1_8.axis_fg [\axis_fg(c_family="zynq",c_pf_th...]
+Compiling architecture structure of entity axi_fifo_mm_s_v4_1_8.fifo [\fifo(c_family="zynq",c_ipif_dwi...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5_bhv_ss [\fifo_generator_v13_0_5_bhv_ss(c...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5_conv [\fifo_generator_v13_0_5_conv(c_c...]
+Compiling architecture behavioral of entity fifo_generator_v13_0_5.fifo_generator_vhdl_beh [\fifo_generator_vhdl_beh(c_commo...]
+Compiling architecture xilinx of entity fifo_generator_v13_0_5.fifo_generator_v13_0_5 [\fifo_generator_v13_0_5(c_common...]
+Compiling architecture structure of entity axi_fifo_mm_s_v4_1_8.axis_fg [\axis_fg(c_family="zynq",c_pf_th...]
+Compiling architecture structure of entity axi_fifo_mm_s_v4_1_8.fifo [\fifo(c_family="zynq",c_ipif_dwi...]
+Compiling module fifo_generator_v13_1_3.fifo_generator_v13_1_3_bhv_ver_s...
+Compiling module fifo_generator_v13_1_3.fifo_generator_v13_1_3_bhv_ver_p...
+Compiling module fifo_generator_v13_1_3.fifo_generator_v13_1_3_CONV_VER(...
+Compiling module fifo_generator_v13_1_3.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_3.fifo_generator_v13_1_3(C_COMMON_...
+Compiling architecture implementation of entity lib_fifo_v1_0_7.sync_fifo_fg [\sync_fifo_fg(c_family="zynq",c_...]
+Compiling architecture beh of entity axi_fifo_mm_s_v4_1_8.ipic2axi_s [\ipic2axi_s(c_family="zynq",c_tx...]
+Compiling architecture structure of entity axi_fifo_mm_s_v4_1_8.axi_fifo_mm_s [\axi_fifo_mm_s(c_family="zynq",c...]
+Compiling architecture design_1_axi_fifo_mm_s_0_0_arch of entity xil_defaultlib.design_1_axi_fifo_mm_s_0_0 [design_1_axi_fifo_mm_s_0_0_defau...]
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_asynch_r...
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=1,c_mtb...]
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_systemin...
+Compiling module dist_mem_gen_v8_0_11.dist_mem_gen_v8_0_11(C_FAMILY="z...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_systemin...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_static_c...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_systemin...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_systemin...
+Compiling module axi_traffic_gen_v2_0_12.axi_traffic_gen_v2_0_12_top(C_FA...
+Compiling module xil_defaultlib.design_1_axi_traffic_gen_0_0
+Compiling module xil_defaultlib.s00_couplers_imp_SF7GIV
+Compiling module xil_defaultlib.design_1_axi_traffic_gen_0_axi_p...
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0
+Compiling module xil_defaultlib.multiplier
+Compiling module xil_defaultlib.factorial
+Compiling module xil_defaultlib.handshake_wrapper
+Compiling module xil_defaultlib.design_1_handshake_wrapper_0_0
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_10.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_10.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_10.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_10.proc_sys_reset [\proc_sys_reset(c_family="zynq",...]
+Compiling architecture design_1_rst_clk_wiz_100m_0_arch of entity xil_defaultlib.design_1_rst_clk_wiz_100M_0 [design_1_rst_clk_wiz_100m_0_defa...]
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

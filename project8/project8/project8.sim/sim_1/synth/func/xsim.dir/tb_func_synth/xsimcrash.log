@@ -1,0 +1,40 @@
+Unable to capture context for thread 19616 in process 20152, can not generate back trace
+Unable to capture context for thread 12408 in process 20152, can not generate back trace
+Unable to capture context for thread 17452 in process 20152, can not generate back trace
+Unable to capture context for thread 19616 in process 20152, can not generate back trace
+Unable to capture context for thread 17452 in process 20152, can not generate back trace
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFDBB7BBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+[0]  [0x00007FFDBB7BBB93]
+[1]  [0x00007FFDBB7BBB93]
+[2]  [0x00007FFDBB7BB4A1]
+[3]  [0x00007FFDBB7BB3EF]
+[4]  [0x00007FFDBB7A19FE]
+[5]  [0x00007FFDBB7A0ED1]
+[6]  [0x00007FFDBB7A0D76]
+[7]  [0x00007FFDBB7479F6]
+[8]  [0x00007FFDBB737AFB]
+[9]  [0x00007FFDBB85E90A]
+[10]  [0x00007FFDBB879F87]
+[11]  [0x00007FFDBB87A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFE589B7BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFE5938CED1]
+Done
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859
+Exception at PC 0x00007FFE5634A859

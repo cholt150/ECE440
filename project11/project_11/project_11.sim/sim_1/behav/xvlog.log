@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ip/design_1_axi_traffic_gen_0_0_2/sim/design_1_axi_traffic_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi_traffic_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_2/design_1_clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_2/design_1_clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ipshared/0cb2/multiply.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ipshared/0cb2/factorial.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module factorial
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ipshared/0cb2/handshake_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module handshake_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/ip/design_1_handshake_wrapper_0_0/sim/design_1_handshake_wrapper_0_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_handshake_wrapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE_440/project11/project_11/project_11.ip_user_files/bd/design_1/hdl/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-311] analyzing module design_1_axi_traffic_gen_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_SF7GIV
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/ECE_440/project11/project_11/project_11.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/ECE_440/project11/project_11/project_11.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

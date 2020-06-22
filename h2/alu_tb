@@ -1,0 +1,22 @@
+`timescale 1ns / 1ps
+parameter WIDTH = 4
+module alu_tb
+	logic cIn,
+	logic [1:0] fn,
+	logic [WIDTH-1:0] a,
+	logic [WIDTH-1:0] b,
+	initial begin
+			a = 4'b1111; b = 4'b0000; cIn = 1;
+		#5  fn = 2'b00;
+		#5  fn = 2'b01;
+		#5  fn = 2'b10;
+		#5  fn = 2'b11;
+		#5  a = 4'b0101; b = 4'b0101; cIn = 0;
+		#5  fn = 2'b00;
+		#5  fn = 2'b01;
+		#5  fn = 2'b10;
+		#5  fn = 2'b11;
+	end
+	initial
+		#3 $finish
+endmodule

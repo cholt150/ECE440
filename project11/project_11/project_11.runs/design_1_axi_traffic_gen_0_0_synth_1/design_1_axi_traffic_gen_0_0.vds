@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 03 11:07:02 2020
+# Process ID: 14284
+# Current directory: C:/ECE_440/project11/project_11/project_11.runs/design_1_axi_traffic_gen_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_traffic_gen_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_traffic_gen_0_0.tcl
+# Log file: C:/ECE_440/project11/project_11/project_11.runs/design_1_axi_traffic_gen_0_0_synth_1/design_1_axi_traffic_gen_0_0.vds
+# Journal file: C:/ECE_440/project11/project_11/project_11.runs/design_1_axi_traffic_gen_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_traffic_gen_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_traffic_gen_0_0, cache-ID = e7027b93e2224da1.

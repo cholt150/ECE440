@@ -1,0 +1,155 @@
+10:35:34 INFO  : Registering command handlers for SDK TCF services
+10:35:35 INFO  : Launching XSCT server: xsct.bat -interactive F:\ECE_440\project7\project7\project7.sdk\temp_xsdb_launch_script.tcl
+10:35:39 INFO  : XSCT server has started successfully.
+10:35:41 INFO  : Successfully done setting XSCT server connection channel  
+10:35:41 INFO  : Processing command line option -hwspec F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper.hdf.
+10:35:41 INFO  : Successfully done setting SDK workspace  
+10:49:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772555A" && level==0} -index 1' command is executed.
+10:49:06 INFO  : FPGA configured successfully with bitstream "F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/first_zynq_system_wrapper.bit"
+10:49:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:51:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:56:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:02:27 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:04:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:04:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772555A" && level==0} -index 1' command is executed.
+11:04:09 INFO  : FPGA configured successfully with bitstream "F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/first_zynq_system_wrapper.bit"
+11:04:27 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:13:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:20:27 INFO  : Registering command handlers for SDK TCF services
+12:20:27 INFO  : Launching XSCT server: xsct.bat -interactive F:\ECE_440\project7\project7\project7.sdk\temp_xsdb_launch_script.tcl
+12:20:30 INFO  : XSCT server has started successfully.
+12:20:31 INFO  : Successfully done setting XSCT server connection channel  
+12:20:31 INFO  : Processing command line option -hwspec F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper.hdf.
+12:20:31 INFO  : Successfully done setting SDK workspace  
+12:20:31 INFO  : Checking for hwspec changes in the project first_zynq_system_wrapper_hw_platform_0.
+12:21:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772555A" && level==0} -index 1' command is executed.
+12:21:27 INFO  : FPGA configured successfully with bitstream "F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/first_zynq_system_wrapper.bit"
+12:21:42 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Elf file associated with target
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+12:24:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772555A" && level==0} -index 1' command is executed.
+12:24:08 INFO  : 'fpga -state' command is executed.
+12:24:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:09 INFO  : Jtag cable 'Digilent Zybo 210279772555A' is selected.
+12:24:09 INFO  : 'jtag frequency' command is executed.
+12:24:09 INFO  : Sourcing of 'F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:24:09 INFO  : Context for 'APU' is selected.
+12:24:09 INFO  : Hardware design information is loaded from 'F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/system.hdf'.
+12:24:09 INFO  : Context for 'APU' is selected.
+12:24:09 INFO  : 'stop' command is executed.
+12:24:10 INFO  : 'ps7_init' command is executed.
+12:24:10 INFO  : 'ps7_post_config' command is executed.
+12:24:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:10 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:24:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:10 INFO  : The application 'F:/ECE_440/project7/project7/project7.sdk/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:24:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279772555A"} -index 0
+loadhw F:/ECE_440/project7/project7/project7.sdk/first_zynq_system_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279772555A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772555A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772555A"} -index 0
+dow F:/ECE_440/project7/project7/project7.sdk/LED_test/Debug/LED_test.elf
+----------------End of Script----------------
+
+12:24:10 INFO  : Memory regions updated for context APU
+12:24:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:10 INFO  : 'con' command is executed.
+12:24:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279772555A"} -index 0
+con
+----------------End of Script----------------
+
+12:24:10 INFO  : Launch script is exported to file 'F:\ECE_440\project7\project7\project7.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_led_test.elf_on_local.tcl'
+12:56:16 INFO  : Disconnected from the channel tcfchan#1.
+12:56:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

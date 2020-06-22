@@ -1,0 +1,6 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/impl/func/tb_func_impl.v,1585674178,verilog,,,,DNA_sequencer;blk_mem_gen_0;blk_mem_gen_0_blk_mem_gen_generic_cstr;blk_mem_gen_0_blk_mem_gen_prim_width;blk_mem_gen_0_blk_mem_gen_prim_wrapper_init;blk_mem_gen_0_blk_mem_gen_top;blk_mem_gen_0_blk_mem_gen_v8_3_5;blk_mem_gen_0_blk_mem_gen_v8_3_5_synth;codon_reader;dist_mem_gen_0;dist_mem_gen_0_dist_mem_gen_v8_0_11;dist_mem_gen_0_dist_mem_gen_v8_0_11_synth;dist_mem_gen_0_rom;glbl;sequence_detector,,,,,,,,
+C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.srcs/sim_1/new/tb.sv,1585358429,systemVerilog,,,,tb,,,,,,,,

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="333333334fs"></ZoomStartTime>
+      <ZoomEndTime time="2333333334fs"></ZoomEndTime>
+      <Cursor1Time time="2000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="85"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/gcd_rslt" type="array">
+      <obj_property name="ElementShortName">gcd_rslt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gcd_rslt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/CLK_PRD" type="array">
+      <obj_property name="ElementShortName">CLK_PRD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PRD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/HOLD_TIME" type="other">
+      <obj_property name="ElementShortName">HOLD_TIME</obj_property>
+      <obj_property name="ObjectShortName">HOLD_TIME</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/xload" type="logic">
+      <obj_property name="ElementShortName">xload</obj_property>
+      <obj_property name="ObjectShortName">xload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/xsel" type="logic">
+      <obj_property name="ElementShortName">xsel</obj_property>
+      <obj_property name="ObjectShortName">xsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/yload" type="logic">
+      <obj_property name="ElementShortName">yload</obj_property>
+      <obj_property name="ObjectShortName">yload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/ysel" type="logic">
+      <obj_property name="ElementShortName">ysel</obj_property>
+      <obj_property name="ObjectShortName">ysel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/x" type="array">
+      <obj_property name="ElementShortName">x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/dp2/y" type="array">
+      <obj_property name="ElementShortName">y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y[7:0]</obj_property>
+   </wvobject>
+</wave_config>

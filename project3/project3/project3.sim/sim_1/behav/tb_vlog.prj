@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../project3.srcs/sources_1/imports/new/dp.sv"
+sv xil_defaultlib  "../../../project3.srcs/sources_1/imports/new/fsm.sv"
+sv xil_defaultlib  "../../../project3.srcs/sources_1/imports/new/gcd_core.sv"
+sv xil_defaultlib  "../../../project3.srcs/sources_1/new/wrapper.sv"
+sv xil_defaultlib  "../../../project3.srcs/sim_1/new/tb.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

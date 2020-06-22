@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Mar 04 12:26:20 2020
+# Process ID: 11216
+# Current directory: F:/ECE 440/project6/project6/project6.runs/impl_1
+# Command line: vivado.exe -log ALC.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ALC.tcl -notrace
+# Log file: F:/ECE 440/project6/project6/project6.runs/impl_1/ALC.vdi
+# Journal file: F:/ECE 440/project6/project6/project6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ALC.tcl -notrace

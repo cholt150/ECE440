@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ECE 440/project4/project4/project4.sim/sim_1/impl/func/tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALC
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_11
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0_spram
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/ECE 440/project4/project4/project4.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

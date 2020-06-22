@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "tb_func_impl.v"
+sv xil_defaultlib  "../../../../project8.srcs/sim_1/new/tb.sv"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Mar 06 10:25:28 2020
+# Process ID: 21972
+# Current directory: F:/ECE 440/project6/project6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21788 F:\ECE 440\project6\project6\project6.xpr
+# Log file: F:/ECE 440/project6/project6/vivado.log
+# Journal file: F:/ECE 440/project6/project6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/ECE 440/project6/project6/project6.xpr}
+launch_simulation
+source tb.tcl
+run 700 us
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {F:/ECE 440/project6/project6/project6.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROGRAM.FILE {F:/ECE 440/project6/project6/project6.runs/impl_1/ALC.bit} [lindex [get_hw_devices xc7z010_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z010_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+open_run synth_1 -name synth_1
+close_sim

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 31 10:03:14 2020
+# Process ID: 16032
+# Current directory: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/impl/func
+# Command line: wbtcv.exe -mode batch -source C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/impl/func/xsim.dir/tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/impl/func/webtalk.log
+# Journal file: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/impl/func\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Cory -notrace
+WARNING: [Common 17-259] Unknown Tcl command 'lmutil - Copyright (c) 1989-2015 Flexera Software LLC. All Rights Reserved.' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+invalid command name "lmutil"
+    while executing
+"lmutil - Copyright (c) 1989-2015 Flexera Software LLC. All Rights Reserved."
+    (file "C:/Users/Cory" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 31 10:03:14 2020...

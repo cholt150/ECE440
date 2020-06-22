@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1585513429">
+  <File Type="PWROPT-DRC" Name="DNA_sequencer_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DNA_sequencer_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DNA_sequencer_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="DNA_sequencer_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="DNA_sequencer.tcl"/>
+  <File Type="OPT-HWDEF" Name="DNA_sequencer.hwdef"/>
+  <File Type="RDI-RDI" Name="DNA_sequencer.vdi"/>
+  <File Type="OPT-DCP" Name="DNA_sequencer_opt.dcp"/>
+  <File Type="OPT-DRC" Name="DNA_sequencer_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="DNA_sequencer_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="DNA_sequencer_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="DNA_sequencer_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DNA_sequencer_placed.dcp"/>
+  <File Type="PLACE-IO" Name="DNA_sequencer_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DNA_sequencer_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="DNA_sequencer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DNA_sequencer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="DNA_sequencer_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DNA_sequencer_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DNA_sequencer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="DNA_sequencer_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DNA_sequencer_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DNA_sequencer_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DNA_sequencer_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DNA_sequencer_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="DNA_sequencer_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="DNA_sequencer_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="DNA_sequencer_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DNA_sequencer_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="DNA_sequencer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DNA_sequencer_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="DNA_sequencer.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="DNA_sequencer_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="DNA_sequencer.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DNA_sequencer_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="DNA_sequencer.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DNA_sequencer_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="DNA_sequencer.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DNA_sequencer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="DNA_sequencer_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="DNA_sequencer_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="DNA_sequencer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="DNA_sequencer_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DNA_sequencer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="DNA_sequencer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DNA_sequencer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="DNA_sequencer_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="DNA_sequencer_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DNA_sequencer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DNA_sequencer_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DNA_sequencer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DNA_sequencer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DNA_sequencer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="DNA_sequencer.bit"/>
+  <File Type="BITSTR-RBT" Name="DNA_sequencer.rbt"/>
+  <File Type="BITSTR-NKY" Name="DNA_sequencer.nky"/>
+  <File Type="BITSTR-BMM" Name="DNA_sequencer_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="DNA_sequencer.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="DNA_sequencer.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/sequence_detector.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/codon_reader.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DNA_sequencer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/codon.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/gene.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DNA_sequencer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/project8/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1585356276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_0"/>
+</GenRun>

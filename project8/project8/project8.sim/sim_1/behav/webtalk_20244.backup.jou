@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 31 17:28:35 2020
+# Process ID: 20244
+# Current directory: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Cory Holt/Desktop/ECE_440/project8/project8/project8.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Cory -notrace

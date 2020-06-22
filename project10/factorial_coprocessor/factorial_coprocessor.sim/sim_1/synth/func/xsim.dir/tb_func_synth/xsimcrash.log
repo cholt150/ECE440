@@ -1,0 +1,39 @@
+Unable to capture context for thread 3360 in process 6464, can not generate back trace
+Unable to capture context for thread 17744 in process 6464, can not generate back trace
+Unable to capture context for thread 10920 in process 6464, can not generate back trace
+Unable to capture context for thread 3360 in process 6464, can not generate back trace
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB2119BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+[0]  [0x00007FFB2119BB93]
+[1]  [0x00007FFB2119BB93]
+[2]  [0x00007FFB2119B4A1]
+[3]  [0x00007FFB2119B3EF]
+[4]  [0x00007FFB211819FE]
+[5]  [0x00007FFB21180ED1]
+[6]  [0x00007FFB21180D76]
+[7]  [0x00007FFB211279F6]
+[8]  [0x00007FFB21117AFB]
+[9]  [0x00007FFB2123E90A]
+[10]  [0x00007FFB21259F87]
+[11]  [0x00007FFB2125A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFB80337BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFB815ACE51]
+Done
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799
+Exception at PC 0x00007FFB7E8DA799

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_handshake_wrapper_0_0_synth_1" LaunchDir="C:/ECE_440/project11/project_11/project_11.runs/design_1_handshake_wrapper_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_fifo_mm_s_0_0_synth_1" LaunchDir="C:/ECE_440/project11/project_11/project_11.runs/design_1_axi_fifo_mm_s_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_traffic_gen_0_0_synth_1" LaunchDir="C:/ECE_440/project11/project_11/project_11.runs/design_1_axi_traffic_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_synth_1" LaunchDir="C:/ECE_440/project11/project_11/project_11.runs/design_1_clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_clk_wiz_100M_0_synth_1" LaunchDir="C:/ECE_440/project11/project_11/project_11.runs/design_1_rst_clk_wiz_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

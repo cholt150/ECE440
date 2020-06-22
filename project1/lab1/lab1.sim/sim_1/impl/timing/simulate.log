@@ -1,0 +1,17 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+LED output mis-matched at                   60: expected: 0001, actual: 0x01
+LED output matched at                 120
+LED output mis-matched at                  180: expected: 0111, actual: 0011
+LED output matched at                 240
+LED output matched at                 300
+LED output matched at                 360
+LED output matched at                 420
+LED output matched at                 480
+LED output mis-matched at                  540: expected: 0001, actual: 0101
+LED output matched at                 600
+LED output mis-matched at                  660: expected: 0111, actual: 0011
+LED output matched at                 720
+LED output matched at                 780
+LED output matched at                 840
+LED output matched at                 900

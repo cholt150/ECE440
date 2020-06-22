@@ -1,0 +1,12 @@
+verilog xil_defaultlib "../../../bd/design_1/ip/design_1_axi_traffic_gen_0_0_2/sim/design_1_axi_traffic_gen_0_0.v" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+verilog xil_defaultlib "../../../bd/design_1/ip/design_1_clk_wiz_0_2/design_1_clk_wiz_0_clk_wiz.v" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+verilog xil_defaultlib "../../../bd/design_1/ip/design_1_clk_wiz_0_2/design_1_clk_wiz_0.v" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+sv xil_defaultlib "../../../bd/design_1/ipshared/0cb2/multiply.sv" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+sv xil_defaultlib "../../../bd/design_1/ipshared/0cb2/factorial.sv" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+sv xil_defaultlib "../../../bd/design_1/ipshared/0cb2/handshake_wrapper.sv" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+sv xil_defaultlib "../../../bd/design_1/ip/design_1_handshake_wrapper_0_0/sim/design_1_handshake_wrapper_0_0.sv" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+verilog xil_defaultlib "../../../bd/design_1/hdl/design_1.v" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/e3ab/hdl/src/verilog" --include "../../../../../project_11/project_11.srcs/sources_1/bd/design_1/ipshared/100a"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
